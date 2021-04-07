@@ -1,0 +1,156 @@
+@charset "UTF-8";
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  padding: 20px 70px;
+}
+nav ul li{
+  font-size: 20px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+#top{
+  height: 600px;
+  background: url(../img/337125_m_compressed.jpg) no-repeat center;
+  background-size: 100%;
+}
+.top_wrap h1{
+  font-size: 5vw;
+  color: #fff;
+  background-color: rgb(58, 190, 76);
+  padding: 20px 50px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 275px;
+}
+#service{
+  width: 80%;
+  margin: 100px auto;
+}
+.section_title{
+  font-size: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #75d5ff;
+  text-shadow: #888 3px 3px 5px;
+}
+.service_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service_left img{
+  width: 80%;
+  height: auto;
+  box-shadow: 20px 20px 0 palevioletred;
+}
+.service_right h2{
+  color: #75d5ff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.service_right span{
+  font-size: 6vw;
+  color: red;
+}
+.service_right p{
+  font-size: 15px;
+  color: #555;
+}
+#news{
+  border: solid #333 5px;
+  width: 80%;
+  margin: 100px auto;
+}
+.news_wrap{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.news_ttl{
+  position: relative;
+  display: inline-block;
+  bottom: 33px;
+  background-color: #fff;
+  left: 38%;
+}
+.news_wrap p{
+  font-size: 18px;
+  line-height: 2.5;
+  margin: 10px auto;
+}
+#price{
+  width: 80%;
+  margin: 100px auto;
+}
+.price_wrap table{
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+.price_wrap table tr{
+  border: solid #75d5ff;
+  padding: 10px;
+}
+.price_wrap table th{
+  border: solid #75d5ff;
+  padding: 10px;
+}
+.price_wrap table tr .color1{
+background-color: yellow;
+}
+.price_wrap table td{
+  border: solid #75d5ff;
+  padding: 10px;
+}
+#contact{
+  background: rgb(241,241,241);
+}
+.section_item{
+  width: 60px;
+}
+#contact h2{
+  padding-top: 30px;
+}
+.form{
+  width: 70%;
+  margin: 0 auto;
+}
+label{
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+input,
+textarea{
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+input{
+  padding: 6px;
+}
+textarea{
+  vertical-align: top;
+  height: 200px;
+}
+.button_submit{
+  text-align: center;
+}
+.button{
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+#bottom{
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
